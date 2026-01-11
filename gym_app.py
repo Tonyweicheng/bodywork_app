@@ -10,7 +10,7 @@ SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1nHXcZBx1st290N7VxceiS
 
 # 頁面設定
 st.set_page_config(page_title="雲端健身紀錄", page_icon="💪")
-st.title("💪 雲端健身訓練日誌 (Google Sheets)")
+st.title("雲端健身訓練日誌 (Google Sheets)")
 
 # --- 連線 Google Sheets 函數 ---
 def get_google_sheet_data():
